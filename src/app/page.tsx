@@ -200,7 +200,7 @@ export default function Home() {
       </section>
 
       {/* ===== SERVICIOS ===== */}
-      <section className="py-40 px-6 bg-surface">
+      <section className="py-48 px-6 bg-surface">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
@@ -255,7 +255,7 @@ export default function Home() {
       </section>
 
       {/* ===== COMISIONES ===== */}
-      <section className="py-40 px-6 bg-surface">
+      <section className="py-48 px-6 bg-surface">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
@@ -318,7 +318,7 @@ export default function Home() {
       </section>
 
       {/* ===== CTA FINAL ===== */}
-      <section className="py-40 px-6 bg-surface">
+      <section className="py-48 px-6 bg-surface">
         <div className="max-w-3xl mx-auto text-center">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold mb-16">
