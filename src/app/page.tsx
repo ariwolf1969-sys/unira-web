@@ -64,12 +64,12 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/ba-background.png')" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/40 to-background" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(16,185,129,0.1)_0%,transparent_60%)]" />
 
         
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
-          <span className="text-[15rem] sm:text-[20rem] md:text-[26rem] lg:text-[32rem] font-black text-white/[0.04] tracking-tighter leading-none -mt-16">BA</span>
+          <span className="text-[15rem] sm:text-[20rem] md:text-[26rem] lg:text-[32rem] font-black text-white/[0.07] tracking-tighter leading-none -mt-16">BA</span>
         </div>
         <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-20">
           <FadeIn direction="down" delay={0.2}>
