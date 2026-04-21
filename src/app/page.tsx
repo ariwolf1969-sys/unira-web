@@ -15,7 +15,7 @@ const services = [
 ];
 
 const benefits = [
-  "Comisi\u00f3n 0% como socio fundador",
+  "Comisi\u00f3n 5% como socio fundador",
   "Acceso prioritario a todos los servicios",
   "Gobierno cooperativo: un socio, un voto",
   "Cashback y beneficios exclusivos",
