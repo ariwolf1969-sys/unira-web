@@ -77,7 +77,7 @@ export default function Home() {
           </FadeIn>
 
           <FadeIn direction="up" delay={0.3}>
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none mb-16">
+            <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none mb-20">
               <span className="gradient-text text-glow">Unira</span>
             </h1>
           </FadeIn>
@@ -115,7 +115,7 @@ export default function Home() {
           </FadeIn>
 
           <FadeIn delay={0.8}>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto mb-20">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto mb-24">
               <AnimatedCounter target={5000} suffix="" label="Miembros fundadores" />
               <AnimatedCounter target={0} suffix="%" label="Comisi&oacute;n de servicio" />
               <AnimatedCounter target={12} suffix="+" label="Servicios incluidos" />
@@ -136,13 +136,13 @@ export default function Home() {
       </section>
 
       {/* ===== NO ES SOLO OTRA APP ===== */}
-      <section className="py-48 px-6">
+      <section className="py-56 px-6">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
               No es solo otra app
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-32 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-40 text-lg">
               Las grandes plataformas extraen ganancias de Argentina. Unira devuelve el valor a la comunidad.
             </p>
           </FadeIn>
@@ -150,7 +150,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-10 items-start">
             <FadeIn direction="left">
               <div className="bg-red-500/5 border border-red-500/20 rounded-2xl p-8 md:p-10">
-                <h3 className="text-red-400 font-bold text-xl mb-16">Modelo actual</h3>
+                <h3 className="text-red-400 font-bold text-xl mb-24">Modelo actual</h3>
                 <ul className="space-y-4 text-foreground/60 text-lg">
                   <li className="flex items-start gap-3">
                     <span className="text-red-400 mt-1">&times;</span>
@@ -174,7 +174,7 @@ export default function Home() {
 
             <FadeIn direction="right">
               <div className="bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-10">
-                <h3 className="text-primary font-bold text-xl mb-16">Modelo Unira</h3>
+                <h3 className="text-primary font-bold text-xl mb-24">Modelo Unira</h3>
                 <ul className="space-y-4 text-foreground/80 text-lg">
                   <li className="flex items-start gap-3">
                     <span className="text-primary mt-1">&#10003;</span>
@@ -200,13 +200,13 @@ export default function Home() {
       </section>
 
       {/* ===== SERVICIOS ===== */}
-      <section className="py-48 px-6 bg-surface">
+      <section className="py-56 px-6 bg-surface">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
               Todo en una sola app
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-32 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-40 text-lg">
               12+ servicios integrados
             </p>
           </FadeIn>
@@ -228,21 +228,21 @@ export default function Home() {
       </section>
 
       {/* ===== BENEFICIOS ===== */}
-      <section className="py-48 px-6">
+      <section className="py-56 px-6">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
               Beneficios exclusivos de fundador
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-32 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-40 text-lg">
               Solo los primeros 5.000 miembros
             </p>
           </FadeIn>
 
-          <div className="grid sm:grid-cols-2 gap-5">
+          <div className="grid sm:grid-cols-2 gap-8">
             {benefits.map((b, i) => (
               <FadeIn key={i} delay={i * 0.1} direction="left">
-                <div className="flex items-center gap-4 bg-surface border border-border rounded-xl p-5 hover:border-primary/20 transition-colors">
+                <div className="flex items-center gap-4 bg-surface border border-border rounded-xl p-7 hover:border-primary/20 transition-colors">
                   <span className="flex-shrink-0 w-10 h-10 bg-primary/20 text-primary rounded-lg flex items-center justify-center font-bold">
                     {i + 1}
                   </span>
@@ -255,13 +255,13 @@ export default function Home() {
       </section>
 
       {/* ===== COMISIONES ===== */}
-      <section className="py-48 px-6 bg-surface">
+      <section className="py-56 px-6 bg-surface">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
               Estructura de comisiones
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-32 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-40 text-lg">
               Mientras m&aacute;s particip&aacute;s, menos pag&aacute;s
             </p>
           </FadeIn>
@@ -269,13 +269,13 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {tiers.map((t, i) => (
               <FadeIn key={i} delay={i * 0.15}>
-                <div className={`bg-surface-light rounded-2xl p-8 md:p-10 text-center hover:-translate-y-2 transition-all duration-300 ${t.highlight ? "border-2 border-primary/30" : "border border-border"}`}>
+                <div className={`bg-surface-light rounded-2xl p-12 md:p-14 text-center hover:-translate-y-2 transition-all duration-300 ${t.highlight ? "border-2 border-primary/30" : "border border-border"}`}>
                   {t.highlight && (
                     <div className="inline-block px-4 py-1.5 bg-primary text-white text-xs font-bold rounded-full mb-5 uppercase tracking-wider">
                       FUNDADOR
                     </div>
                   )}
-                  <h3 className="text-xl font-semibold text-foreground mb-4">{t.name}</h3>
+                  <h3 className="text-xl font-semibold text-foreground mb-5">{t.name}</h3>
                   <div className={`text-5xl md:text-6xl font-extrabold mb-2 ${t.highlight ? "gradient-text" : "text-primary"}`}>
                     {t.comm}
                   </div>
@@ -288,18 +288,18 @@ export default function Home() {
       </section>
 
       {/* ===== COMO SUMARTE ===== */}
-      <section className="py-48 px-6">
+      <section className="py-56 px-6">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
               &iquest;C&oacute;mo sumarte?
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-32 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-40 text-lg">
               En 3 pasos simples
             </p>
           </FadeIn>
 
-          <div className="space-y-10">
+          <div className="space-y-16">
             {steps.map((s, i) => (
               <FadeIn key={i} delay={i * 0.15} direction="left">
                 <div className="flex items-start gap-6 md:gap-8">
@@ -307,7 +307,7 @@ export default function Home() {
                     {s.num}
                   </span>
                   <div>
-                    <h3 className="text-xl md:text-2xl font-bold text-foreground mb-3">{s.title}</h3>
+                    <h3 className="text-xl md:text-2xl font-bold text-foreground mb-5">{s.title}</h3>
                     <p className="text-muted leading-relaxed text-lg">{s.desc}</p>
                   </div>
                 </div>
@@ -318,14 +318,14 @@ export default function Home() {
       </section>
 
       {/* ===== CTA FINAL ===== */}
-      <section className="py-48 px-6 bg-surface">
+      <section className="py-56 px-6 bg-surface">
         <div className="max-w-3xl mx-auto text-center">
           <FadeIn>
-            <h2 className="text-3xl md:text-5xl font-bold mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold mb-20">
               Se parte de los{" "}
               <span className="gradient-text">5.000 fundadores</span>
             </h2>
-            <p className="text-muted text-lg mb-20">
+            <p className="text-muted text-lg mb-24">
               Tu pre-inscripci&oacute;n no tiene costo ni compromiso.
             </p>
             <a
