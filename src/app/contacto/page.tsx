@@ -36,7 +36,7 @@ export default function ContactoPage() {
                 </div>
                 <h3 className="text-lg font-bold text-foreground mb-2">Email</h3>
                 <p className="text-muted text-sm mb-3">Para consultas formales o propuestas.</p>
-                <p className="text-primary font-semibold text-sm break-all">fabianarielwolf@gmail.com</p>
+                <p className="text-primary font-semibold text-sm break-all">cooperativaunira@gmail.com</p>
               </a>
             </FadeIn>
             <FadeIn delay={0.2}>
@@ -104,12 +104,12 @@ export default function ContactoPage() {
           </FadeIn>
           <div className="space-y-6">
             {[
-              { q: "¿Es gratis ser socio fundador?", a: "La pre-inscripción es totalmente gratuita y sin compromiso. Los aportes cooperativos se definirán democráticamente en la asamblea constitutiva, priorizando la accesibilidad para todos los argentinos. Nuestro objetivo es que nadie quede afuera por cuestiones económicas." },
+              { q: "¿Es gratis ser socio fundador?", a: "La pre-inscripción es totalmente gratuita y sin compromiso. Los aportes cooperativos se definirán democráticamente en la asamblea constitutiva, priorizando la accesibilidad para todas las personas. Nuestro objetivo es que nadie quede afuera por cuestiones económicas." },
               { q: "¿Cuándo se lanza la aplicación?", a: "El lanzamiento está condicionado a alcanzar la meta de 5.000 socios fundadores y a la obtención del financiamiento necesario. Una vez cumplidos ambos requisitos, estimamos un período de desarrollo de 12-18 meses. Los socios fundadores serán los primeros en probar las versiones beta." },
-              { q: "¿Puedo ser socio si no soy de Buenos Aires?", a: "¡Por supuesto! Buscamos socios de toda Argentina. El lanzamiento inicial será en las principales ciudades (Buenos Aires, Córdoba, Rosario, Mendoza, Tucumán), pero cualquier argentino puede ser socio fundador sin importar su ubicación." },
+              { q: "¿Puedo ser socio si no soy de Buenos Aires?", a: "¡Por supuesto! Buscamos socios de toda Argentina. El lanzamiento inicial será en las principales ciudades (Buenos Aires, Córdoba, Rosario, Mendoza), pero cualquier Argentino o Extranjero con DNI Argentino puede ser socio fundador sin importar su ubicación." },
               { q: "¿Qué pasa si no se alcanzan los 5.000 socios?", a: "El proyecto continúa de todas formas. Los 5.000 socios son la meta ideal para el lanzamiento con máximo impacto, pero la cooperativa puede constituirse con un número menor según lo establece la Ley 20.337 de Cooperativas de Argentina." },
               { q: "¿La pre-inscripción me compromete a algo?", a: "No, la pre-inscripción no genera ningún tipo de obligación legal ni económica. Simplemente indica tu interés en ser parte del proyecto. Cuando la cooperativa se constituya formalmente, serás contactado para confirmar tu participación." },
-              { q: "¿Necesito experiencia tecnológica?", a: "Para nada. No hace falta saber programar ni tener experiencia en tecnología. Lo que necesitamos son argentinos comprometidos que compartan la visión de una plataforma digital justa y cooperativa." },
+              { q: "¿Necesito experiencia tecnológica?", a: "Para nada. No hace falta saber programar ni tener experiencia en tecnología. Lo que necesitamos son personas comprometidas que compartan la visión de una plataforma digital justa y cooperativa." },
             ].map((item, i) => (
               <FadeIn key={i} delay={i * 0.08}>
                 <div className="p-6 rounded-2xl bg-surface-light border border-border">
