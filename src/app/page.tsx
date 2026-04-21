@@ -24,7 +24,7 @@ const benefits = [
 ];
 
 const tiers = [
-  { name: "Fundador", comm: "0%", highlight: true },
+  { name: "Fundador", comm: "2%", highlight: true },
   { name: "Socio Activo", comm: "5%", highlight: false },
   { name: "Usuario Externo", comm: "8%", highlight: false },
 ];
