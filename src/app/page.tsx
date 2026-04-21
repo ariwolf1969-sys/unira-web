@@ -64,10 +64,14 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: "url('/ba-background.png')" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/80 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/70 to-background" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(16,185,129,0.1)_0%,transparent_60%)]" />
 
-        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
+        
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none overflow-hidden">
+          <span className="text-[15rem] sm:text-[20rem] md:text-[26rem] lg:text-[32rem] font-black text-white/[0.04] tracking-tighter leading-none -mt-16">BA</span>
+        </div>
+        <div className="relative z-10 text-center px-6 max-w-5xl mx-auto pt-20">
           <FadeIn direction="down" delay={0.2}>
             <p className="text-primary text-sm md:text-base font-semibold tracking-[0.3em] uppercase mb-6">
               Cooperativa &middot; Tecnolog&iacute;a &middot; Buenos Aires
@@ -76,7 +80,7 @@ export default function Home() {
 
           <FadeIn direction="up" delay={0.3}>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none mb-8">
-              <span className="gradient-text">Unira</span>
+              <span className="gradient-text text-glow">Unira</span>
             </h1>
           </FadeIn>
 
@@ -94,7 +98,7 @@ export default function Home() {
           </FadeIn>
 
           <FadeIn direction="up" delay={0.6}>
-            <div className="flex flex-col sm:flex-row gap-5 justify-center mb-16">
+            <div className="flex flex-col sm:flex-row gap-5 justify-center mb-20">
               <a
                 href="https://forms.gle/pqC3Y5cpi6urC9ya9"
                 target="_blank"
@@ -134,13 +138,13 @@ export default function Home() {
       </section>
 
       {/* ===== NO ES SOLO OTRA APP ===== */}
-      <section className="py-28 px-6">
+      <section className="py-32 px-6">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-5">
               No es solo otra app
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-16 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-20 text-lg">
               Las grandes plataformas extraen ganancias de Argentina. Unira devuelve el valor a la comunidad.
             </p>
           </FadeIn>
@@ -198,13 +202,13 @@ export default function Home() {
       </section>
 
       {/* ===== SERVICIOS ===== */}
-      <section className="py-28 px-6 bg-surface">
+      <section className="py-32 px-6 bg-surface">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-5">
               Todo en una sola app
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-16 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-20 text-lg">
               12+ servicios integrados
             </p>
           </FadeIn>
@@ -226,13 +230,13 @@ export default function Home() {
       </section>
 
       {/* ===== BENEFICIOS ===== */}
-      <section className="py-28 px-6">
+      <section className="py-32 px-6">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-5">
               Beneficios exclusivos de fundador
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-16 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-20 text-lg">
               Solo los primeros 5.000 miembros
             </p>
           </FadeIn>
@@ -253,13 +257,13 @@ export default function Home() {
       </section>
 
       {/* ===== COMISIONES ===== */}
-      <section className="py-28 px-6 bg-surface">
+      <section className="py-32 px-6 bg-surface">
         <div className="max-w-5xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-5">
               Estructura de comisiones
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-16 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-20 text-lg">
               Mientras m&aacute;s particip&aacute;s, menos pag&aacute;s
             </p>
           </FadeIn>
@@ -286,13 +290,13 @@ export default function Home() {
       </section>
 
       {/* ===== COMO SUMARTE ===== */}
-      <section className="py-28 px-6">
+      <section className="py-32 px-6">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-5">
               &iquest;C&oacute;mo sumarte?
             </h2>
-            <p className="text-muted text-center max-w-2xl mx-auto mb-16 text-lg">
+            <p className="text-muted text-center max-w-2xl mx-auto mb-20 text-lg">
               En 3 pasos simples
             </p>
           </FadeIn>
@@ -316,7 +320,7 @@ export default function Home() {
       </section>
 
       {/* ===== CTA FINAL ===== */}
-      <section className="py-28 px-6 bg-surface">
+      <section className="py-32 px-6 bg-surface">
         <div className="max-w-3xl mx-auto text-center">
           <FadeIn>
             <h2 className="text-3xl md:text-5xl font-bold mb-8">
