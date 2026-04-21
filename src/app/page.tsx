@@ -154,7 +154,7 @@ export default function Home() {
                 <ul className="space-y-4 text-foreground/60 text-lg">
                   <li className="flex items-start gap-3">
                     <span className="text-red-400 mt-1">&times;</span>
-                    Comisiones del 20-35% a prestadores
+                    Comisiones del 35-40% a prestadores
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-red-400 mt-1">&times;</span>
