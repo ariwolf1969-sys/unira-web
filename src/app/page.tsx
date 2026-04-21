@@ -178,7 +178,7 @@ export default function Home() {
                 <ul className="space-y-4 text-foreground/80 text-lg">
                   <li className="flex items-start gap-3">
                     <span className="text-primary mt-1">&#10003;</span>
-                    Comisi&oacute;n 0% para socios fundadores
+                    Comisi&oacute;n 5% para los primeros 5.000 socios 
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-primary mt-1">&#10003;</span>
