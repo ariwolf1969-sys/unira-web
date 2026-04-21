@@ -91,7 +91,7 @@ export default function Home() {
           <FadeIn direction="up" delay={0.5}>
             <p className="text-lg md:text-xl text-foreground/60 mb-16 max-w-2xl mx-auto leading-relaxed">
               Transporte, entregas, compras, gastronom&iacute;a, salud y m&aacute;s. Sin intermediarios. Con comisi&oacute;n{" "}
-              <span className="text-primary font-bold">0%</span> para fundadores.
+              <span className="text-primary font-bold">5%</span> para fundadores.
             </p>
           </FadeIn>
 
