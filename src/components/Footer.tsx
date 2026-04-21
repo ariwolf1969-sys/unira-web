@@ -10,7 +10,7 @@ export default function Footer() {
               <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center font-bold text-white text-lg">U</div>
               <span className="text-xl font-bold gradient-text">Unira</span>
             </Link>
-            <p className="text-muted text-sm leading-relaxed">El primer super-app cooperativo de Argentina. La aplicación es de todos.</p>
+            <p className="text-muted text-sm leading-relaxed">La primer super-app cooperativa de Argentina. La aplicación es de todos.</p>
           </div>
           <div>
             <h4 className="text-foreground font-semibold mb-4">Navegación</h4>
@@ -31,7 +31,7 @@ export default function Footer() {
           <div>
             <h4 className="text-foreground font-semibold mb-4">Contacto</h4>
             <ul className="space-y-2 text-sm text-muted">
-              <li><a href="mailto:fabianarielwolf@gmail.com" className="hover:text-primary transition-colors">fabianarielwolf@gmail.com</a></li>
+              <li><a href="mailto:fabianarielwolf@gmail.com" className="hover:text-primary transition-colors">cooperativaunira@gmail.com</a></li>
               <li><a href="tel:+5491155976414" className="hover:text-primary transition-colors">+54 9 11 5597-6414</a></li>
               <li><a href="https://wa.me/5491155976414" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">WhatsApp</a></li>
             </ul>
