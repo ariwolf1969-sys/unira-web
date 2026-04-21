@@ -57,7 +57,7 @@ export default function CooperativaPage() {
             {[
               { benefit: "Comisiones de por vida más bajas", desc: "Tu tarifa de comisión queda fija para siempre según el momento en que te inscribiste. Los primeros 50 pagan 2%, los siguientes hasta el 5.000 pagan 5%." },
               { benefit: "Voto fundacional", desc: "Como socio fundador, participás en la asamblea constitutiva donde se definirá el estatuto social, la estructura de gobierno y las políticas de distribución de excedentes." },
-              { benefit: "Distribución preferencial de excedentes", desc: "Los excedentes se distribuirán entre todos los socios, pero los fundadores recibirán una proporción mayor durante los primeros años como reconocimiento a su aporte inicial." },
+              { benefit: "Distribución preferencial de excedentes", desc: "Los excedentes se distribuirán entre todos los socios, pero los fundadores recibirán una proporción mayor durante los primeros 2 años como reconocimiento a su aporte inicial." },
               { benefit: "Acceso anticipado a todos los servicios", desc: "Antes del lanzamiento público, los socios fundadores serán los primeros en probar y utilizar todas las funcionalidades de la plataforma." },
               { benefit: "Reconocimiento público permanente", desc: "Los socios fundadores serán reconocidos en la plataforma y en los materiales de comunicación de la cooperativa como los pioneros que hicieron posible este proyecto." },
               { benefit: "Capacitación exclusiva", desc: "Programa de formación en tecnología, economía cooperativa y emprendimiento diseñado exclusivamente para socios fundadores, con acceso a mentores del ecosistema tecnológico argentino." },
@@ -101,7 +101,7 @@ export default function CooperativaPage() {
               <div className="p-8 rounded-2xl bg-surface-light border border-primary/30">
                 <h3 className="text-lg font-bold text-primary mb-4">La solución: Unira</h3>
                 <ul className="space-y-3 text-sm text-muted">
-                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">&#10003;</span> Comisiones desde 0% para los primeros 50 socios, máximo 8%</li>
+                  <li className="flex items-start gap-2"><span className="text-primary mt-0.5">&#10003;</span> Comisiones desde 2% para los primeros 50 socios, máximo 8%</li>
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">&#10003;</span> Las decisiones se toman en asamblea, cada socio tiene un voto</li>
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">&#10003;</span> Conductores, comerciantes y usuarios son socios con derechos plenos</li>
                   <li className="flex items-start gap-2"><span className="text-primary mt-0.5">&#10003;</span> Las ganancias se reinvierten en Argentina y se distribuyen</li>
