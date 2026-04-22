@@ -60,12 +60,7 @@ export default function Home() {
     <div>
       {/* ===== HERO SECTION ===== */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/ba-background.png')" }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#050a0e]/40 via-[#050a0e]/20 to-[#050a0e]/90" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(16,185,129,0.1)_0%,transparent_60%)]" />
+
 
         
 
