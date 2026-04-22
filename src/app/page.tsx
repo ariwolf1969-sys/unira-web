@@ -106,6 +106,14 @@ export default function Home() {
               >
                 Conocer m&aacute;s
               </a>
+              <a
+                href="https://unira.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-10 py-4 bg-primary hover:bg-primary-dark text-white font-bold rounded-xl transition-all duration-300 hover:scale-105 glow-green text-lg"
+              >
+                Ver nuestra App M&oacute;vil
+              </a>
             </div>
           </FadeIn>
 
