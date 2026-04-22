@@ -73,7 +73,7 @@ export default function Home() {
 
           <FadeIn direction="up" delay={0.3}>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold leading-none mb-20">
-              <span className="gradient-text text-glow">Unira</span>
+              <img src="/unira-logo.gif" alt="Unira" className="h-24 md:h-36 lg:h-48 object-contain mx-auto" />
             </h1>
           </FadeIn>
 
