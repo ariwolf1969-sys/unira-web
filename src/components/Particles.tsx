@@ -14,7 +14,7 @@ export default function Particles() {
     canvas.height = document.documentElement.scrollHeight;
 
     const particles: { x: number; y: number; r: number; dx: number; dy: number; o: number }[] = [];
-    for (let i = 0; i < 150; i++) {
+    for (let i = 0; i < 300; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
