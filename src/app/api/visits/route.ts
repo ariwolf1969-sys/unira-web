@@ -1,11 +1,16 @@
 import { NextResponse } from "next/server";
-import { kv } from "@vercel/kv";
+import { Redis } from "@upstash/redis";
+
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL!,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN!,
+});
 
 export async function GET() {
   try {
-    const visits = await kv.incr("site_visits");
+    const visits = await redis.incr("site_visits");
     return NextResponse.json({ visits });
-  } catch {
-    return NextResponse.json({ visits: 0 });
+  } catch (e) {
+    return NextResponse.json({ visits: -1, error: String(e) });
   }
 }
