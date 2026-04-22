@@ -14,13 +14,13 @@ export default function GlowCursor() {
     <div
       className="fixed pointer-events-none z-[9999] hidden md:block"
       style={{
-        left: pos.x - 60,
-        top: pos.y - 60,
-        width: 120,
-        height: 120,
+        left: pos.x - 100,
+        top: pos.y - 100,
+        width: 200,
+        height: 200,
         borderRadius: "50%",
-        background: "radial-gradient(circle, rgba(16,185,129,0.15) 0%, transparent 70%)",
-        transition: "left 0.1s ease-out, top 0.1s ease-out",
+        background: "radial-gradient(circle, rgba(16,185,129,0.3) 0%, rgba(16,185,129,0.1) 40%, transparent 70%)",
+        transition: "left 0.02s linear, top 0.02s linear",
       }}
     />
   );

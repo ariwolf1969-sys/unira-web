@@ -14,14 +14,14 @@ export default function Particles() {
     canvas.height = document.documentElement.scrollHeight;
 
     const particles: { x: number; y: number; r: number; dx: number; dy: number; o: number }[] = [];
-    for (let i = 0; i < 60; i++) {
+    for (let i = 0; i < 150; i++) {
       particles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        r: Math.random() * 2 + 0.5,
+        r: Math.random() * 3 + 1,
         dx: (Math.random() - 0.5) * 0.4,
         dy: (Math.random() - 0.5) * 0.3 - 0.1,
-        o: Math.random() * 0.5 + 0.1,
+        o: Math.random() * 0.6 + 0.2,
       });
     }
 
