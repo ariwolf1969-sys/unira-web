@@ -19,8 +19,8 @@ export default function FinanzasPage() {
       <section className="py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6">
           <FadeIn>
-            <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Inversión proyectada: $700 millones</h2>
-            <p className="text-center text-muted max-w-3xl mx-auto mb-12">Para desarrollar una plataforma de tecnología de primer nivel comparable a las mejores aplicaciones del mundo, proyectamos una inversión total de $700 millones de pesos argentinos. Este monto cubrirá el desarrollo completo de las tres aplicaciones, la infraestructura cloud, testing, lanzamiento y los primeros meses de operación.</p>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">Inversión proyectada: $1.800 millones</h2>
+            <p className="text-center text-muted max-w-3xl mx-auto mb-12">Para desarrollar una plataforma de tecnología de primer nivel comparable a las mejores aplicaciones del mundo, proyectamos una inversión total de $1.800 millones de pesos argentinos. Este monto cubrirá el desarrollo completo de las tres aplicaciones, la infraestructura cloud, testing, lanzamiento y los primeros meses de operación.</p>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -55,7 +55,7 @@ export default function FinanzasPage() {
             <FadeIn>
               <div className="p-8 rounded-2xl bg-surface-light border-2 border-primary glow-green">
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                  <div className="text-5xl font-extrabold text-primary shrink-0">0%</div>
+                  <div className="text-5xl font-extrabold text-primary shrink-0">2%</div>
                   <div>
                     <h3 className="text-lg font-bold text-foreground mb-1">Primeros 50 socios fundadores</h3>
                     <p className="text-muted text-sm leading-relaxed">Los primeros 50 en pre-inscribirse disfrutarán de <strong className="text-foreground">6 meses sin comisión alguna</strong>. Después de ese período, la comisión será de solo <strong className="text-foreground">2%</strong> de por vida. Sin letra chica, sin condiciones ocultas.</p>
